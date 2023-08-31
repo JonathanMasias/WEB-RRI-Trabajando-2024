@@ -1,0 +1,125 @@
+
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Roboto:300,300i,400,400i,500,500i");
+
+
+.color-bg-radio{
+    --businessGradientColor: linear-gradient(to right, #09365F, #09365F, #09365F, #0D2F5D, #0D2F5D);
+}
+
+.letra-en-vivo {
+    align-items: center;
+    font-weight: 600;
+}
+
+.letra-en-vivo-i i {
+    padding: 8px;
+}
+
+.audio-player {
+  overflow: hidden;
+  color: #000;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #b1b4c1;
+  border-radius: 10px 10px 10px 10px;
+}
+.audio-player .audio-player__content {
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  transition: color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  border-left: 1px solid rgba(255, 255, 255, 0.13);
+}
+.audio-player .audio-player__content:hover {
+  color: #ffffff;
+}
+.audio-player .audio-player__content * {
+  margin: 0;
+}
+.audio-player .audio-player__controls {
+  order: -1;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.audio-player .audio-player__controls .audio-player__time-display {
+  font-size: 12px;
+  width: auto;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: default;
+}
+.audio-player .audio-player__controls .audio-player__time-display:active, .audio-player .audio-player__controls .audio-player__time-display:hover, .audio-player .audio-player__controls .audio-player__time-display:focus {
+  color: #ffffff;
+}
+.audio-player .audio-player__controls button {
+  transition: color 0.2s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), background 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 1px;
+  font-family: inherit;
+  background: 0;
+  border: 0;
+  height: 40px;
+  width: 40px;
+  outline: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 0px 0px 0px 2px;
+  border: 1px solid #b1b4c1;
+  
+}
+
+.audio-player__controls-play{
+    padding-left: 10px;
+}
+
+.audio-player .audio-player__controls button:hover, .audio-player .audio-player__controls button:focus {
+  background-color: rgba(255, 255, 255, 0.13);
+}
+
+.audio-player__time-display {
+    padding: 1px 10px;
+}
+
+.audio-player .audio-player__controls button:active {
+  opacity: 1;
+}
+.audio-player .audio-player__controls button i.material-icons {
+  position: relative;
+  right: 0px;
+  top: 2px;
+}
+
+.title {
+  display: block;
+}
+
+.song-data {
+  display: block;
+  font-size: 0.75em;
+}
+
+.bottom-header .ln-programa .program-detail .live-txt span:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #e62932;
+    border-radius: 50%;
+    display: inline-block;
+		margin-right: 10px;
+  }
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+  .parpadea {
+  animation-name:parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}

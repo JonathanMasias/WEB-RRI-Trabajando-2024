@@ -1,0 +1,42 @@
+/*================================================
+Default CSS
+=================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+:root {
+    --fontFamily: 'Manrope', sans-serif;
+    --headingFontFamily: 'Roboto', sans-serif;
+    --titleBlogFontFamily: 'DM Serif Display', serif;
+    --robotoSlabFontFamily: 'Roboto Slab', serif;
+    --robotoFontFamily: 'Roboto Slab', serif;
+    --startupMainColor: #E01220;
+    --marketingMainColor: #2f4eac;
+    --businessMainColor: #5d3dec;
+    --businessGradientColor: linear-gradient(to right, #09365F, #09365F, #09365F, #0D2F5D, #0D2F5D);
+    --appMainColor: #0042bb;
+    --appGradientColor: linear-gradient(to right bottom, #0042bb, #093ea8, #113a96, #163584, #1a3172);
+    --saasMainColor: #296dfe;
+    --saasGradientColor: linear-gradient(to right top, #257ef7, #0094fb, #00a7f5, #00b6ea, #17c3dd);
+    --personalPortfolioMainColor: #111111;
+    --itAgencyMainColor: #E01220;
+    --itAgencyGradientColor: linear-gradient(to right, #ff4a17, #fd5d15, #fb6d16, #f87b1a, #f68821);
+    --consultingMainColor: #3054A0;
+    --shopMainColor: #111111;
+    --minimalPortfolioColor: #4ab19d;
+    --optionalColor: #6f6f6f;
+    --whiteColor: #ffffff;
+    --blackColor: #2d2d37;
+    --fontSize: 15.5px;
+    --transition: .5s;
+
+    /*--colores Conferencias--*/    
+    --blueColor-a: #262D5F;
+    --blueColor-b: #3054A0;
+    
+    /*--colores de RRI--*/
+    --colorRri-blue: #09365F;
+    --colorRri-red: #E30613;
+}
