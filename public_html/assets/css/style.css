@@ -7981,13 +7981,21 @@ CTA Area CSS
 .letra-memorizando {
   text-align: center;
 }
-.letra-memorizando h2 {
+.letra-memorizando h1 {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   line-height: 1.4;
   font-size: 28px;
   font-weight: 800;
-  color: var(--colorRri-blue);
+  color: var(--blackColor);
+}
+.letra-memorizando h2 {
+  text-transform: uppercase;
+  font-family: "PT Serif", serif;
+  line-height: 1.4;
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--blackColor);
 }
 .letra-memorizando p {
   font-family: "PT Serif", serif;
