@@ -9420,10 +9420,16 @@ Blog Area CSS
   left: 0;
   top: 4px;
 }
+.single-post-item .post-content p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
 .single-post-item .post-content .meta {
   padding-left: 0;
   margin-bottom: 13px;
   list-style-type: none;
+  font-size: 14px;
 }
 .single-post-item .post-content .meta li {
   display: inline-block;
@@ -9636,7 +9642,7 @@ Blog Area CSS
 }
 .single-post-item.without-box-shadow .post-content {
   padding-bottom: 20px;
-  border: 1px solid #cecece;
+  border: 1px solid #eeeeee;
 }
 .single-post-item.without-box-shadow .post-content .meta li i {
   color: var(--blackColor);

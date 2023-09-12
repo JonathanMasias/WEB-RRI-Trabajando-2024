@@ -12402,10 +12402,20 @@ Blog Area CSS
                 top: 4px;
             }
         }
+
+        p {
+            font: {
+                size: 15px;
+                family: 'Roboto', sans-serif;
+                weight: 400;        
+            }
+        }
+
         .meta {
             padding-left: 0;
             margin-bottom: 13px;
             list-style-type: none;
+            font-size: 14px;
 
             li {
                 display: inline-block;
@@ -12709,7 +12719,7 @@ Blog Area CSS
 
         .post-content {
             padding-bottom: 20px;
-            border: 1px solid #cecece;
+            border: 1px solid #eeeeee;
 
             .meta {
                 li {
