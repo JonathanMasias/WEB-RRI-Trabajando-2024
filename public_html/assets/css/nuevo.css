@@ -449,6 +449,30 @@ button.rn-button-paypal, a.rn-button-paypal {
     padding-bottom: 300px;
 }
 
+.conferencia-banner-tarma-area {
+    z-index: 1;
+    position: relative;
+    background: var(--appGradientColor);
+    background-image: url(../../assets/image/conferencia/web-img-pag-banner-conferencia-santidad-tarma-2024.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.conferencia-banner-huancayo-area {
+    z-index: 1;
+    position: relative;
+    background: var(--appGradientColor);
+    background-image: url(../../assets/image/conferencia/web-img-pag-banner-conferencia-santidad-huancayo-2024.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
 .conferencia-banner-trujillo-area {
     z-index: 1;
     position: relative;
@@ -497,4 +521,8 @@ PRUEBA
     .md\:block {
         display: block !important;
     }
+}
+
+.text-white {
+    color: #fff;
 }

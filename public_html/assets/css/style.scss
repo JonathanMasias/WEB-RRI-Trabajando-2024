@@ -82,14 +82,13 @@ This files table contents are outlined below>>>>>
 Default CSS
 =================================================*/
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
-    --fontFamily: 'Manrope', sans-serif;
+    --fontFamily: 'Roboto', sans-serif;
     --headingFontFamily: 'Roboto', sans-serif;
     --titleBlogFontFamily: 'DM Serif Display', serif;
     --robotoSlabFontFamily: 'Roboto Slab', serif;
@@ -106,7 +105,7 @@ Default CSS
     --personalPortfolioMainColor: #111111;
     --itAgencyMainColor: #E01220;
     --itAgencyGradientColor: linear-gradient(to right, #4b3630, #4b3630, #4b3630, #4b3630, #4b3630);
-    --consultingMainColor: #3054A0;
+    --consultingMainColor: #E30613;
     --shopMainColor: #111111;
     --minimalPortfolioColor: #4ab19d;
     --optionalColor: #6f6f6f;
@@ -114,7 +113,7 @@ Default CSS
     --blackColor: #2d2d37;
     --greeyColor: #3c3c3c;
 
-    --fontSize: 15.5px;
+    --fontSize: 16px;
     --transition: .5s;
 
     /*--colores Conferencias--*/    
@@ -170,10 +169,11 @@ img {
 p {
     color: var(--optionalColor);
     margin-bottom: 15px;
-    line-height: 1.6;
+    line-height: 29px;
     font: {
-        weight: 500;
+        weight: 400;
         size: var(--fontSize);
+        family: var(--fontFamily);
     };
     &:last-child {
         margin-bottom: 0;
@@ -213,12 +213,10 @@ p {
 .pt-50 {
     padding: {
         top: 50px;
-        bottom: 50px;
     };
 }
 .pb-50 {
     padding: {
-        top: 50px;
         bottom: 50px;
     };
 }
@@ -10886,6 +10884,22 @@ CTA Area CSS
     }
 }
 
+.container-background-app {
+
+    background: {
+        image: url(../../assets/image/app/img-background-app.jpg);
+        position: right center;
+        repeat: no-repeat;
+        size: cover;
+    }
+}
+
+.text-white {
+    p {
+        font-size: 20px;
+        color: #fff;
+    }
+}
 /*================================================
 Timeline/Short Brief Area CSS
 =================================================*/
@@ -12840,6 +12854,17 @@ Blog Details Area CSS
                     size: 20px;                    
                 }
             }
+
+            li {
+                padding: {
+                    left: 50px;
+                };
+                font: {
+                        family: var(--blogContenFontFamily);
+                        weight: 400;
+                        size: 20px;
+                }
+            }
         }                
         h3 {
             font-size: 22px;
@@ -14442,30 +14467,47 @@ Page Title Area CSS
             opacity: 0.7;
         }
     }
+
     &.bg1 {
         background-image: url(../../assets/img/page-title/page-title-bg-image1.jpg);
     }
+
     &.bg2 {
         background-image: url(../../assets/img/page-title/page-title-bg-image2.jpg);
     }
+
     &.bg3 {
         background-image: url(../../assets/img/page-title/page-title-bg-image3.jpg);
     }
+
     &.bg4 {
         background-image: url(../../assets/img/page-title/page-title-bg-image4.jpg);
-    }    
+    }   
+
     &.bg5 {
         background-image: url(../../assets/img/page-title/page-title-bg-image5.jpg);
-    }    
+    }  
+
     &.contact {
         background-image: url(../../assets/image/banners-headers/banner-head-contacto.jpg);
     }
+
     &.blog-background {
         background-image: url(../../assets/image/banners-headers/banner-head-blog.jpg);
-    }    
+    } 
+
     &.emisoras {
         background-image: url(../../assets/image/banners-headers/banner-dead-emisoras-rri.jpg);
-    }    
+    }
+    
+    &.img-mision-integridad {
+        background-image: url(../../assets/image/mision-integridad/header-mision-integridad.jpg);
+    }
+
+    &.img-banner-emisora-huaraz {
+        background-image: url(../../assets/image/proyectos/banner-header-huaraz.jpg);
+    }
+      
     &.style-two {
         padding: {
             top: 260px;
