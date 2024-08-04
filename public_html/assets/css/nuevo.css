@@ -427,6 +427,18 @@ button.rn-button-paypal, a.rn-button-paypal {
     padding-bottom: 100px;
 }
 
+.evento-banner-area {
+    z-index: 1;
+    position: relative;
+    background: var(--appGradientColor);
+    background-image: url(../../assets/image/conferencia/banner-taller-2024.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .img-title-conferencia {
     position: relative;
     background-position: center;
@@ -484,6 +496,10 @@ button.rn-button-paypal, a.rn-button-paypal {
     padding-top: 300px;
     padding-bottom: 300px;
 }
+
+.imagen-fondo-taller {
+    background-image: url(../../assets/image/conferencia/background-taller-2024.jpg);
+}
 /*= End  pag: conferencia=*/
 
 /*= stard pag: Blog Details Area=*/
@@ -526,6 +542,4 @@ PRUEBA
 .text-white {
     color: #fff;
 }
-
-
 

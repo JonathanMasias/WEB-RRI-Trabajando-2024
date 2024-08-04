@@ -5628,7 +5628,7 @@ Process Area CSS
 .single-process-box {
   margin-bottom: 30px;
   text-align: center;
-  border: 1px dashed #e1e1e1;
+  border: 1px dashed #4c5d4f;
   transition: var(--transition);
   padding: 40px 25px;
 }
@@ -5641,8 +5641,8 @@ Process Area CSS
   font-size: 20px;
 }
 .single-process-box:hover {
-  box-shadow: 3px 5px 25px 0 rgba(0, 0, 0, 0.1);
   border-color: var(--whiteColor);
+  background-color: rgba(255, 255, 255, 0.337254902);
 }
 .single-process-box:hover img {
   transform: scale(0.9);

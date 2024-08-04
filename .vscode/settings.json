@@ -20,5 +20,6 @@
         "titleBar.inactiveBackground": "#072c4b99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#072C4B"
+    "peacock.color": "#072C4B",
+    "scm.experimental.showHistoryGraph": true
 }

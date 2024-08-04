@@ -7893,7 +7893,7 @@ Process Area CSS
 .single-process-box {
     margin-bottom: 30px;
     text-align: center;
-    border: 1px dashed #e1e1e1;
+    border: 1px dashed #4c5d4f;
     transition: var(--transition);
     padding: 40px 25px;
 
@@ -7906,8 +7906,8 @@ Process Area CSS
         font-size: 20px;
     }
     &:hover {
-        box-shadow: 3px 5px 25px 0 rgba(0,0,0,.1);
         border-color: var(--whiteColor);
+        background-color: #ffffff56;
 
         img {
             transform: scale(0.9);
