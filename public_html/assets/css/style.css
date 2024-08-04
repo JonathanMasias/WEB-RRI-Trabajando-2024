@@ -102,7 +102,7 @@ Default CSS
   --saasMainColor: #296dfe;
   --saasGradientColor: linear-gradient(to right top, #257ef7, #0094fb, #00a7f5, #00b6ea, #17c3dd);
   --personalPortfolioMainColor: #111111;
-  --itAgencyMainColor: #E01220;
+  --itAgencyMainColor: rgb(156, 156, 156);
   --itAgencyGradientColor: linear-gradient(to right, #4b3630, #4b3630, #4b3630, #4b3630, #4b3630);
   --consultingMainColor: #E30613;
   --shopMainColor: #111111;
@@ -166,7 +166,7 @@ img {
 p {
   color: var(--optionalColor);
   margin-bottom: 15px;
-  line-height: 29px;
+  line-height: 24px;
   font-weight: 400;
   font-size: var(--fontSize);
   font-family: var(--fontFamily);
@@ -876,7 +876,7 @@ Navbar Area CSS
   position: relative;
   color: var(--blackColor);
   transition: var(--transition);
-  font-weight: 700;
+  font-weight: 450;
   font-size: var(--fontSize);
   padding-left: 0;
   padding-right: 0;
@@ -3207,7 +3207,7 @@ App Banner Area CSS
   padding: 11px 25px 11px 65px;
   margin-right: 15px;
   border-radius: 5px;
-  font-size: 13.5px;
+  font-size: 16px;
   font-weight: 600;
 }
 .app-banner-content .btn-box .store-btn img {
@@ -8318,7 +8318,7 @@ App Download Area CSS
   margin-right: 15px;
   border-radius: 5px;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.02), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.04);
-  font-size: 13.5px;
+  font-size: 16px;
   font-weight: 600;
 }
 .app-download-content .btn-box .store-btn img {
@@ -9461,7 +9461,7 @@ Blog Area CSS
   color: var(--marketingMainColor);
 }
 .single-post-item .post-content h3 {
-  margin-bottom: 14px;
+  margin-bottom: 2px;
   line-height: 1.4;
   font-size: 20px;
 }
@@ -9594,15 +9594,15 @@ Blog Area CSS
   border-color: var(--whiteColor);
 }
 .single-post-item.bg-faf2ff {
-  background-color: #faf2ff;
+  background-color: #eeeeee;
   box-shadow: unset;
 }
 .single-post-item.bg-fff5e6 {
-  background-color: #fff5e6;
+  background-color: #fff4f4;
   box-shadow: unset;
 }
 .single-post-item.bg-eaf6ff {
-  background-color: #eaf6ff;
+  background-color: #ebeef2;
   box-shadow: unset;
 }
 .single-post-item.personal-portfolio-color .post-content .meta li i {
@@ -9941,6 +9941,136 @@ Blog Details Area CSS
   color: var(--whiteColor);
 }
 .blog-details-desc .article-footer .article-share .social li a.telegram:hover, .blog-details-desc .article-footer .article-share .social li a.telegram:focus {
+  color: #0088cc;
+  background-color: transparent;
+}
+.blog-details-desc .article-footer-boletin {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+.blog-details-desc .article-footer-boletin .article-tags {
+  flex: 0 0 500%;
+  max-width: 100%;
+}
+.blog-details-desc .article-footer-boletin .article-tags p {
+  line-height: 1;
+  margin-bottom: 0;
+  color: var(--blackColor);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.blog-details-desc .article-footer-boletin .article-tags a {
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #f9f9f9;
+  color: var(--blackColor);
+  border-radius: 30px;
+  padding: 7px 20px;
+}
+.blog-details-desc .article-footer-boletin .article-tags a:hover {
+  background-color: var(--startupMainColor);
+  color: var(--whiteColor);
+}
+.blog-details-desc .article-footer-boletin .article-share {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.blog-details-desc .article-footer-boletin .article-share .social {
+  padding-left: 0;
+  list-style-type: none;
+  text-align: end;
+  margin-bottom: 0;
+}
+.blog-details-desc .article-footer-boletin .article-share .social p {
+  line-height: 2;
+  margin-bottom: 0;
+  color: var(--blackColor);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+.blog-details-desc .article-footer-boletin .article-share .social ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.blog-details-desc .article-footer-boletin .article-share .social li {
+  display: inline-block;
+}
+.blog-details-desc .article-footer-boletin .article-share .social li span {
+  display: inline-block;
+  margin-right: 3px;
+  font-weight: 600;
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  background-color: var(--startupMainColor);
+  color: var(--whiteColor);
+  border: 1px solid var(--startupMainColor);
+  text-align: center;
+  font-size: 14px;
+  margin-left: 2px;
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a:hover, .blog-details-desc .article-footer-boletin .article-share .social li a:focus {
+  color: var(--startupMainColor);
+  background-color: transparent;
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.facebook {
+  background-color: #000000;
+  border-color: #000000;
+  color: var(--whiteColor);
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.facebook:hover, .blog-details-desc .article-footer-boletin .article-share .social li a.facebook:focus {
+  color: #3b5998;
+  background-color: transparent;
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.twitter {
+  background-color: #000000;
+  border-color: #000000;
+  color: var(--whiteColor);
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.twitter:hover, .blog-details-desc .article-footer-boletin .article-share .social li a.twitter:focus {
+  color: #1da1f2;
+  background-color: transparent;
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.linkedin {
+  background-color: #000000;
+  border-color: #000000;
+  color: var(--whiteColor);
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.linkedin:hover, .blog-details-desc .article-footer-boletin .article-share .social li a.linkedin:focus {
+  color: #007bb5;
+  background-color: transparent;
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.instagram {
+  background-color: #000000;
+  border-color: #000000;
+  color: var(--whiteColor);
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.instagram:hover, .blog-details-desc .article-footer-boletin .article-share .social li a.instagram:focus {
+  color: #c13584;
+  background-color: transparent;
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.whatsapp {
+  background-color: #000000;
+  border-color: #000000;
+  color: var(--whiteColor);
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.whatsapp:hover, .blog-details-desc .article-footer-boletin .article-share .social li a.whatsapp:focus {
+  color: #128C7E;
+  background-color: transparent;
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.telegram {
+  background-color: #000000;
+  border-color: #000000;
+  color: var(--whiteColor);
+}
+.blog-details-desc .article-footer-boletin .article-share .social li a.telegram:hover, .blog-details-desc .article-footer-boletin .article-share .social li a.telegram:focus {
   color: #0088cc;
   background-color: transparent;
 }
@@ -11157,7 +11287,7 @@ Page Title Area CSS
   background-image: url(../../assets/img/page-title/page-title-bg-image3.jpg);
 }
 .page-title-area.bg4 {
-  background-image: url(../../assets/img/page-title/page-title-bg-image4.jpg);
+  background-image: url(../../assets/image/boletin/img-banner-header-boletin.jpg);
 }
 .page-title-area.bg5 {
   background-image: url(../../assets/img/page-title/page-title-bg-image5.jpg);
